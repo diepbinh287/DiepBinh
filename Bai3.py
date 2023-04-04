@@ -1,0 +1,5 @@
+p=float(input('Tien von gui ban dau: '))
+r=float(input('So thang gui: '))
+n=float(input('Lai suat moi thang: '))
+d=(p*(1+r*n))
+print('Tien lanh cuoi ky: ',d)

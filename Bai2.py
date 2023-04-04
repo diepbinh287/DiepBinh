@@ -1,0 +1,5 @@
+a=float(input('Gia niem yet: '))
+b=float(input('Chiet khau: '))
+c=((a-b)*0.01)
+d=(a-b+c)
+print('Gia ban: ',d)
