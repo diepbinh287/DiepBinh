@@ -1,5 +1,16 @@
-p=float(input('Tien von gui ban dau: '))
-r=float(input('So thang gui: '))
-n=float(input('Lai suat moi thang: '))
-d=(p*(1+r*n))
-print('Tien lanh cuoi ky: ',d)
+x=float(input('x='))
+y=float(input('y='))
+ch=str(input('Phep toan:'))
+if ch=='+':
+    print(x,ch,y,'=',round(x+y,1),sep='')
+elif ch=='-':
+    print(x,ch,y,'=',round(x-y,1),sep='')
+elif ch=='*':
+    print(x,ch,y,'=',round(x*y,1),sep='')
+elif ch=='/':
+    if y==0:
+        print('Khong hop le')
+    else:
+        print(x,ch,y,'=',round(x/y,1),sep='')
+else:
+    print('Khong hop le')
